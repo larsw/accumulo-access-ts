@@ -1,0 +1,37 @@
+{
+  "name": "ts-accumulo-security",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Parser and evaluator for Accumulo security expressions",
+  "keywords": [
+    "accumulo",
+    "security",
+    "parser",
+    "evaluator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larsw/ts-accumulo-security.git"
+  },
+  "author": {
+    "name": "Lars Wilhelmsen",
+    "email": "lars@sral.org"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larsw/ts-accumulo-security/issues"
+  },
+  "scripts": {
+    "test": "bun test",
+    "build": "bun build",
+    "lint": "bun lint"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "typescript-parsec": "^0.3.4"
+  }
+}
